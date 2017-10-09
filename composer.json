@@ -1,0 +1,29 @@
+{
+    "name": "linux/oop-tutorials",
+    "description": "Small MVC Framework",
+    "version": "0.0.1",
+    "require": {
+        "php": "^5.3.3 || ^7.0",
+        "illuminate/database": "^5.5",
+        "jenssegers/blade": "*",
+        "symfony/console": "2.6.7",
+        "illuminate/routing": "*",
+        "illuminate/events": "*"
+    },
+    "keywords": ["PHP Framework", "PHP Small Framework", "Basic Framework"],
+    "homepage": "",
+    "license": "MIT",
+    "authors": [{
+        "name": "Betta Dev Indonesia",
+        "email": "bettadevindonesia@gmail.com",
+        "role": "Website Designer & Founder Betta Dev Indonesia"
+    }],
+    "autoload": {
+        "classmap": [
+            "app/models",
+            "app/commands",
+            "app/controllers",
+            "app/models"
+        ]
+    }
+}
