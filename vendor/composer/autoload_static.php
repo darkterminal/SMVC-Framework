@@ -171,11 +171,13 @@ class ComposerStaticInit8f15f73400b71d50ea22d015b9bb3bd4
     );
 
     public static $classMap = array (
+        'App' => __DIR__ . '/../..' . '/app/core/app.php',
+        'Controller' => __DIR__ . '/../..' . '/app/core/controller.php',
         'CreateCommand' => __DIR__ . '/../..' . '/app/commands/CreateCommand.php',
         'CreateModel' => __DIR__ . '/../..' . '/app/commands/CreateModel.php',
         'GeneratorController' => __DIR__ . '/../..' . '/app/commands/GeneratorController.php',
         'GreetCommand' => __DIR__ . '/../..' . '/app/commands/GreetCommand.php',
-        'Home' => __DIR__ . '/../..' . '/app/controllers/home.php',
+        'HomeController' => __DIR__ . '/../..' . '/app/controllers/HomeController.php',
         'News' => __DIR__ . '/../..' . '/app/models/News.php',
         'Posts' => __DIR__ . '/../..' . '/app/models/Posts.php',
         'Users' => __DIR__ . '/../..' . '/app/models/Users.php',
