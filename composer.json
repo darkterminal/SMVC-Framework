@@ -1,5 +1,5 @@
 {
-    "name": "darkterminal/smvc-framework",
+    "name": "smvc-framework/smvc-framework",
     "description": "Small MVC Framework",
     "type": "project",
     "require": {
@@ -23,7 +23,9 @@
             "app/models",
             "app/commands",
             "app/controllers",
-            "app/models"
+            "app/views",
+            "app/core/app.php",
+            "app/core/controller.php"
         ]
     }
 }

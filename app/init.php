@@ -4,13 +4,11 @@ require_once '../vendor/autoload.php';
 require '../vendor/illuminate/support/helpers.php';
 
 require_once 'database.php';
-require_once 'core/app.php';
-require_once 'core/controller.php';
 
 $basePath = str_finish(dirname(__FILE__), '/');
 $controllersDirectory = $basePath . 'controllers';
 $modelsDirectory = $basePath . 'models';
-$viewsDirectory = $basePath . 'models';
+$viewsDirectory = $basePath . 'views';
 
 Illuminate\Support\ClassLoader::register();
 Illuminate\Support\ClassLoader::addDirectories(array($controllersDirectory, $modelsDirectory, $viewsDirectory));

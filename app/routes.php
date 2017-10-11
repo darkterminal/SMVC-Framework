@@ -1,4 +1,6 @@
 <?php
 
-$app['router']->get('/', 'home@index');
-$app['router']->get('/test', 'home@test');
+$app['router']->get('/', 'HomeController@index');
+$app['router']->get('/test', 'HomeController@test');
+
+$app['router']->get('/user', 'UserController@index');
